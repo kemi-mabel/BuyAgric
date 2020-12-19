@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EEF9066258E489C0045033A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF9065258E489C0045033A /* AppDelegate.swift */; };
+		5EEF9068258E489C0045033A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF9067258E489C0045033A /* SceneDelegate.swift */; };
+		5EEF906A258E489C0045033A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF9069258E489C0045033A /* ViewController.swift */; };
+		5EEF906D258E489C0045033A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EEF906B258E489C0045033A /* Main.storyboard */; };
+		5EEF9070258E489C0045033A /* BuyAgro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF906E258E489C0045033A /* BuyAgro.xcdatamodeld */; };
+		5EEF9072258E48A10045033A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EEF9071258E48A10045033A /* Assets.xcassets */; };
+		5EEF9075258E48A10045033A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EEF9073258E48A10045033A /* LaunchScreen.storyboard */; };
+		5EEF9080258E48A20045033A /* BuyAgroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF907F258E48A20045033A /* BuyAgroTests.swift */; };
+		5EEF908B258E48A20045033A /* BuyAgroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF908A258E48A20045033A /* BuyAgroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EEF907C258E48A20045033A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EEF905A258E489C0045033A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EEF9061258E489C0045033A;
+			remoteInfo = BuyAgro;
+		};
+		5EEF9087258E48A20045033A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EEF905A258E489C0045033A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EEF9061258E489C0045033A;
+			remoteInfo = BuyAgro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EEF9062258E489C0045033A /* BuyAgro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuyAgro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEF9065258E489C0045033A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EEF9067258E489C0045033A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5EEF9069258E489C0045033A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EEF906C258E489C0045033A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EEF906F258E489C0045033A /* BuyAgro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BuyAgro.xcdatamodel; sourceTree = "<group>"; };
+		5EEF9071258E48A10045033A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EEF9074258E48A10045033A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EEF9076258E48A10045033A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EEF907B258E48A20045033A /* BuyAgroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuyAgroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEF907F258E48A20045033A /* BuyAgroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyAgroTests.swift; sourceTree = "<group>"; };
+		5EEF9081258E48A20045033A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EEF9086258E48A20045033A /* BuyAgroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuyAgroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEF908A258E48A20045033A /* BuyAgroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyAgroUITests.swift; sourceTree = "<group>"; };
+		5EEF908C258E48A20045033A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EEF905F258E489C0045033A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEF9078258E48A20045033A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEF9083258E48A20045033A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EEF9059258E489C0045033A = {
+			isa = PBXGroup;
+			children = (
+				5EEF9064258E489C0045033A /* BuyAgro */,
+				5EEF907E258E48A20045033A /* BuyAgroTests */,
+				5EEF9089258E48A20045033A /* BuyAgroUITests */,
+				5EEF9063258E489C0045033A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EEF9063258E489C0045033A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EEF9062258E489C0045033A /* BuyAgro.app */,
+				5EEF907B258E48A20045033A /* BuyAgroTests.xctest */,
+				5EEF9086258E48A20045033A /* BuyAgroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EEF9064258E489C0045033A /* BuyAgro */ = {
+			isa = PBXGroup;
+			children = (
+				5EEF9065258E489C0045033A /* AppDelegate.swift */,
+				5EEF9067258E489C0045033A /* SceneDelegate.swift */,
+				5EEF9069258E489C0045033A /* ViewController.swift */,
+				5EEF906B258E489C0045033A /* Main.storyboard */,
+				5EEF9071258E48A10045033A /* Assets.xcassets */,
+				5EEF9073258E48A10045033A /* LaunchScreen.storyboard */,
+				5EEF9076258E48A10045033A /* Info.plist */,
+				5EEF906E258E489C0045033A /* BuyAgro.xcdatamodeld */,
+			);
+			path = BuyAgro;
+			sourceTree = "<group>";
+		};
+		5EEF907E258E48A20045033A /* BuyAgroTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EEF907F258E48A20045033A /* BuyAgroTests.swift */,
+				5EEF9081258E48A20045033A /* Info.plist */,
+			);
+			path = BuyAgroTests;
+			sourceTree = "<group>";
+		};
+		5EEF9089258E48A20045033A /* BuyAgroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EEF908A258E48A20045033A /* BuyAgroUITests.swift */,
+				5EEF908C258E48A20045033A /* Info.plist */,
+			);
+			path = BuyAgroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EEF9061258E489C0045033A /* BuyAgro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EEF908F258E48A20045033A /* Build configuration list for PBXNativeTarget "BuyAgro" */;
+			buildPhases = (
+				5EEF905E258E489C0045033A /* Sources */,
+				5EEF905F258E489C0045033A /* Frameworks */,
+				5EEF9060258E489C0045033A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuyAgro;
+			productName = BuyAgro;
+			productReference = 5EEF9062258E489C0045033A /* BuyAgro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EEF907A258E48A20045033A /* BuyAgroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EEF9092258E48A20045033A /* Build configuration list for PBXNativeTarget "BuyAgroTests" */;
+			buildPhases = (
+				5EEF9077258E48A20045033A /* Sources */,
+				5EEF9078258E48A20045033A /* Frameworks */,
+				5EEF9079258E48A20045033A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EEF907D258E48A20045033A /* PBXTargetDependency */,
+			);
+			name = BuyAgroTests;
+			productName = BuyAgroTests;
+			productReference = 5EEF907B258E48A20045033A /* BuyAgroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EEF9085258E48A20045033A /* BuyAgroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EEF9095258E48A20045033A /* Build configuration list for PBXNativeTarget "BuyAgroUITests" */;
+			buildPhases = (
+				5EEF9082258E48A20045033A /* Sources */,
+				5EEF9083258E48A20045033A /* Frameworks */,
+				5EEF9084258E48A20045033A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EEF9088258E48A20045033A /* PBXTargetDependency */,
+			);
+			name = BuyAgroUITests;
+			productName = BuyAgroUITests;
+			productReference = 5EEF9086258E48A20045033A /* BuyAgroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EEF905A258E489C0045033A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					5EEF9061258E489C0045033A = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					5EEF907A258E48A20045033A = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 5EEF9061258E489C0045033A;
+					};
+					5EEF9085258E48A20045033A = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 5EEF9061258E489C0045033A;
+					};
+				};
+			};
+			buildConfigurationList = 5EEF905D258E489C0045033A /* Build configuration list for PBXProject "BuyAgro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EEF9059258E489C0045033A;
+			productRefGroup = 5EEF9063258E489C0045033A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EEF9061258E489C0045033A /* BuyAgro */,
+				5EEF907A258E48A20045033A /* BuyAgroTests */,
+				5EEF9085258E48A20045033A /* BuyAgroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EEF9060258E489C0045033A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEF9075258E48A10045033A /* LaunchScreen.storyboard in Resources */,
+				5EEF9072258E48A10045033A /* Assets.xcassets in Resources */,
+				5EEF906D258E489C0045033A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEF9079258E48A20045033A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEF9084258E48A20045033A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EEF905E258E489C0045033A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEF906A258E489C0045033A /* ViewController.swift in Sources */,
+				5EEF9070258E489C0045033A /* BuyAgro.xcdatamodeld in Sources */,
+				5EEF9066258E489C0045033A /* AppDelegate.swift in Sources */,
+				5EEF9068258E489C0045033A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEF9077258E48A20045033A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEF9080258E48A20045033A /* BuyAgroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEF9082258E48A20045033A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEF908B258E48A20045033A /* BuyAgroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EEF907D258E48A20045033A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EEF9061258E489C0045033A /* BuyAgro */;
+			targetProxy = 5EEF907C258E48A20045033A /* PBXContainerItemProxy */;
+		};
+		5EEF9088258E48A20045033A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EEF9061258E489C0045033A /* BuyAgro */;
+			targetProxy = 5EEF9087258E48A20045033A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EEF906B258E489C0045033A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EEF906C258E489C0045033A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EEF9073258E48A10045033A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EEF9074258E48A10045033A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EEF908D258E48A20045033A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EEF908E258E48A20045033A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EEF9090258E48A20045033A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuyAgro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Oluwakemi.Onajinrin.BuyAgro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EEF9091258E48A20045033A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuyAgro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Oluwakemi.Onajinrin.BuyAgro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EEF9093258E48A20045033A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuyAgroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Oluwakemi.Onajinrin.BuyAgroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuyAgro.app/BuyAgro";
+			};
+			name = Debug;
+		};
+		5EEF9094258E48A20045033A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuyAgroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Oluwakemi.Onajinrin.BuyAgroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuyAgro.app/BuyAgro";
+			};
+			name = Release;
+		};
+		5EEF9096258E48A20045033A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuyAgroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Oluwakemi.Onajinrin.BuyAgroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BuyAgro;
+			};
+			name = Debug;
+		};
+		5EEF9097258E48A20045033A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuyAgroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Oluwakemi.Onajinrin.BuyAgroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BuyAgro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EEF905D258E489C0045033A /* Build configuration list for PBXProject "BuyAgro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEF908D258E48A20045033A /* Debug */,
+				5EEF908E258E48A20045033A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EEF908F258E48A20045033A /* Build configuration list for PBXNativeTarget "BuyAgro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEF9090258E48A20045033A /* Debug */,
+				5EEF9091258E48A20045033A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EEF9092258E48A20045033A /* Build configuration list for PBXNativeTarget "BuyAgroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEF9093258E48A20045033A /* Debug */,
+				5EEF9094258E48A20045033A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EEF9095258E48A20045033A /* Build configuration list for PBXNativeTarget "BuyAgroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEF9096258E48A20045033A /* Debug */,
+				5EEF9097258E48A20045033A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5EEF906E258E489C0045033A /* BuyAgro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5EEF906F258E489C0045033A /* BuyAgro.xcdatamodel */,
+			);
+			currentVersion = 5EEF906F258E489C0045033A /* BuyAgro.xcdatamodel */;
+			path = BuyAgro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5EEF905A258E489C0045033A /* Project object */;
+}
