@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  BuyAgro
 //
-//  Created by Oluwakemi Onajinrin on 19/12/2020.
+//  Created by Oluwakemi Onajinrin and Khalifa on 19/12/2020.
 //
 
 import UIKit
