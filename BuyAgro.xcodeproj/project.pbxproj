@@ -3,19 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B95E0416F2FF257E9E6D106 /* Pods_BuyAgroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92B9646A7E40131D883A9D5 /* Pods_BuyAgroTests.framework */; };
 		5EEF9066258E489C0045033A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF9065258E489C0045033A /* AppDelegate.swift */; };
 		5EEF9068258E489C0045033A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF9067258E489C0045033A /* SceneDelegate.swift */; };
-		5EEF906A258E489C0045033A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF9069258E489C0045033A /* ViewController.swift */; };
 		5EEF906D258E489C0045033A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EEF906B258E489C0045033A /* Main.storyboard */; };
 		5EEF9070258E489C0045033A /* BuyAgro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF906E258E489C0045033A /* BuyAgro.xcdatamodeld */; };
 		5EEF9072258E48A10045033A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EEF9071258E48A10045033A /* Assets.xcassets */; };
 		5EEF9075258E48A10045033A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EEF9073258E48A10045033A /* LaunchScreen.storyboard */; };
 		5EEF9080258E48A20045033A /* BuyAgroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF907F258E48A20045033A /* BuyAgroTests.swift */; };
 		5EEF908B258E48A20045033A /* BuyAgroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF908A258E48A20045033A /* BuyAgroUITests.swift */; };
+		7C153D422590FA2200379A0B /* CategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C153D412590FA2200379A0B /* CategoryCollectionViewController.swift */; };
+		7C153D472590FE8700379A0B /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C153D462590FE8700379A0B /* CategoryCollectionViewCell.swift */; };
+		7C153D4C2591065300379A0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C153D4B2591065200379A0B /* GoogleService-Info.plist */; };
+		7C153D512591188800379A0B /* FirebaseCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C153D502591188800379A0B /* FirebaseCollectionReference.swift */; };
+		B63577ACAEE5810144009CD3 /* Pods_BuyAgro_BuyAgroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE923CEACB9542D4A84F777 /* Pods_BuyAgro_BuyAgroUITests.framework */; };
+		F721D7529659AD1B75541CCF /* Pods_BuyAgro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5512DB3D71A262CEC56DE65 /* Pods_BuyAgro.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0133B9B1DED7E36CC6BB7834 /* Pods-BuyAgroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuyAgroTests.release.xcconfig"; path = "Target Support Files/Pods-BuyAgroTests/Pods-BuyAgroTests.release.xcconfig"; sourceTree = "<group>"; };
+		028366638E419435995FCB2B /* Pods-BuyAgro-BuyAgroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuyAgro-BuyAgroUITests.debug.xcconfig"; path = "Target Support Files/Pods-BuyAgro-BuyAgroUITests/Pods-BuyAgro-BuyAgroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		41D3BF53B6F591242AA0EE97 /* Pods-BuyAgro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuyAgro.debug.xcconfig"; path = "Target Support Files/Pods-BuyAgro/Pods-BuyAgro.debug.xcconfig"; sourceTree = "<group>"; };
 		5EEF9062258E489C0045033A /* BuyAgro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuyAgro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEF9065258E489C0045033A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EEF9067258E489C0045033A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5EEF9069258E489C0045033A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5EEF906C258E489C0045033A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EEF906F258E489C0045033A /* BuyAgro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BuyAgro.xcdatamodel; sourceTree = "<group>"; };
 		5EEF9071258E48A10045033A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +59,16 @@
 		5EEF9086258E48A20045033A /* BuyAgroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuyAgroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEF908A258E48A20045033A /* BuyAgroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyAgroUITests.swift; sourceTree = "<group>"; };
 		5EEF908C258E48A20045033A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C153D412590FA2200379A0B /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = "<group>"; };
+		7C153D462590FE8700379A0B /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		7C153D4B2591065200379A0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7C153D502591188800379A0B /* FirebaseCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCollectionReference.swift; sourceTree = "<group>"; };
+		9054B2A8609EAF4AE0CB66F4 /* Pods-BuyAgro-BuyAgroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuyAgro-BuyAgroUITests.release.xcconfig"; path = "Target Support Files/Pods-BuyAgro-BuyAgroUITests/Pods-BuyAgro-BuyAgroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		92761DB3B4B0CFF4618268E4 /* Pods-BuyAgro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuyAgro.release.xcconfig"; path = "Target Support Files/Pods-BuyAgro/Pods-BuyAgro.release.xcconfig"; sourceTree = "<group>"; };
+		9EE923CEACB9542D4A84F777 /* Pods_BuyAgro_BuyAgroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuyAgro_BuyAgroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92B9646A7E40131D883A9D5 /* Pods_BuyAgroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuyAgroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5512DB3D71A262CEC56DE65 /* Pods_BuyAgro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuyAgro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63A98BF4D53F2AA1AFB3AE8 /* Pods-BuyAgroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuyAgroTests.debug.xcconfig"; path = "Target Support Files/Pods-BuyAgroTests/Pods-BuyAgroTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F721D7529659AD1B75541CCF /* Pods_BuyAgro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B95E0416F2FF257E9E6D106 /* Pods_BuyAgroTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B63577ACAEE5810144009CD3 /* Pods_BuyAgro_BuyAgroUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +106,8 @@
 				5EEF907E258E48A20045033A /* BuyAgroTests */,
 				5EEF9089258E48A20045033A /* BuyAgroUITests */,
 				5EEF9063258E489C0045033A /* Products */,
+				7FE5623CB56FAACD5F9D6691 /* Pods */,
+				D25937A709BF8C19692DDBF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,12 +125,15 @@
 			isa = PBXGroup;
 			children = (
 				5EEF9065258E489C0045033A /* AppDelegate.swift */,
+				7C153D502591188800379A0B /* FirebaseCollectionReference.swift */,
 				5EEF9067258E489C0045033A /* SceneDelegate.swift */,
-				5EEF9069258E489C0045033A /* ViewController.swift */,
 				5EEF906B258E489C0045033A /* Main.storyboard */,
+				7C153D462590FE8700379A0B /* CategoryCollectionViewCell.swift */,
+				7C153D412590FA2200379A0B /* CategoryCollectionViewController.swift */,
 				5EEF9071258E48A10045033A /* Assets.xcassets */,
 				5EEF9073258E48A10045033A /* LaunchScreen.storyboard */,
 				5EEF9076258E48A10045033A /* Info.plist */,
+				7C153D4B2591065200379A0B /* GoogleService-Info.plist */,
 				5EEF906E258E489C0045033A /* BuyAgro.xcdatamodeld */,
 			);
 			path = BuyAgro;
@@ -131,6 +157,29 @@
 			path = BuyAgroUITests;
 			sourceTree = "<group>";
 		};
+		7FE5623CB56FAACD5F9D6691 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41D3BF53B6F591242AA0EE97 /* Pods-BuyAgro.debug.xcconfig */,
+				92761DB3B4B0CFF4618268E4 /* Pods-BuyAgro.release.xcconfig */,
+				028366638E419435995FCB2B /* Pods-BuyAgro-BuyAgroUITests.debug.xcconfig */,
+				9054B2A8609EAF4AE0CB66F4 /* Pods-BuyAgro-BuyAgroUITests.release.xcconfig */,
+				F63A98BF4D53F2AA1AFB3AE8 /* Pods-BuyAgroTests.debug.xcconfig */,
+				0133B9B1DED7E36CC6BB7834 /* Pods-BuyAgroTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D25937A709BF8C19692DDBF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5512DB3D71A262CEC56DE65 /* Pods_BuyAgro.framework */,
+				9EE923CEACB9542D4A84F777 /* Pods_BuyAgro_BuyAgroUITests.framework */,
+				B92B9646A7E40131D883A9D5 /* Pods_BuyAgroTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EEF908F258E48A20045033A /* Build configuration list for PBXNativeTarget "BuyAgro" */;
 			buildPhases = (
+				6BDAC2558F74F3E4426624D3 /* [CP] Check Pods Manifest.lock */,
 				5EEF905E258E489C0045033A /* Sources */,
 				5EEF905F258E489C0045033A /* Frameworks */,
 				5EEF9060258E489C0045033A /* Resources */,
+				F9B83DFA9D3A5ECC0BE65DB2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EEF9092258E48A20045033A /* Build configuration list for PBXNativeTarget "BuyAgroTests" */;
 			buildPhases = (
+				324C3026BA7329B6ED5BEA6A /* [CP] Check Pods Manifest.lock */,
 				5EEF9077258E48A20045033A /* Sources */,
 				5EEF9078258E48A20045033A /* Frameworks */,
 				5EEF9079258E48A20045033A /* Resources */,
@@ -173,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EEF9095258E48A20045033A /* Build configuration list for PBXNativeTarget "BuyAgroUITests" */;
 			buildPhases = (
+				5C8EF3B254C578FBEC12C912 /* [CP] Check Pods Manifest.lock */,
 				5EEF9082258E48A20045033A /* Sources */,
 				5EEF9083258E48A20045033A /* Frameworks */,
 				5EEF9084258E48A20045033A /* Resources */,
+				E09678DE0C5F69A25C9B5DD6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EEF9075258E48A10045033A /* LaunchScreen.storyboard in Resources */,
+				7C153D4C2591065300379A0B /* GoogleService-Info.plist in Resources */,
 				5EEF9072258E48A10045033A /* Assets.xcassets in Resources */,
 				5EEF906D258E489C0045033A /* Main.storyboard in Resources */,
 			);
@@ -256,14 +311,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		324C3026BA7329B6ED5BEA6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuyAgroTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C8EF3B254C578FBEC12C912 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuyAgro-BuyAgroUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BDAC2558F74F3E4426624D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuyAgro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E09678DE0C5F69A25C9B5DD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuyAgro-BuyAgroUITests/Pods-BuyAgro-BuyAgroUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuyAgro-BuyAgroUITests/Pods-BuyAgro-BuyAgroUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BuyAgro-BuyAgroUITests/Pods-BuyAgro-BuyAgroUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9B83DFA9D3A5ECC0BE65DB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuyAgro/Pods-BuyAgro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuyAgro/Pods-BuyAgro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BuyAgro/Pods-BuyAgro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5EEF905E258E489C0045033A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EEF906A258E489C0045033A /* ViewController.swift in Sources */,
+				7C153D512591188800379A0B /* FirebaseCollectionReference.swift in Sources */,
 				5EEF9070258E489C0045033A /* BuyAgro.xcdatamodeld in Sources */,
+				7C153D472590FE8700379A0B /* CategoryCollectionViewCell.swift in Sources */,
 				5EEF9066258E489C0045033A /* AppDelegate.swift in Sources */,
+				7C153D422590FA2200379A0B /* CategoryCollectionViewController.swift in Sources */,
 				5EEF9068258E489C0045033A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +597,7 @@
 		};
 		5EEF9090258E48A20045033A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D3BF53B6F591242AA0EE97 /* Pods-BuyAgro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +616,7 @@
 		};
 		5EEF9091258E48A20045033A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92761DB3B4B0CFF4618268E4 /* Pods-BuyAgro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +635,7 @@
 		};
 		5EEF9093258E48A20045033A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F63A98BF4D53F2AA1AFB3AE8 /* Pods-BuyAgroTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +657,7 @@
 		};
 		5EEF9094258E48A20045033A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0133B9B1DED7E36CC6BB7834 /* Pods-BuyAgroTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +679,7 @@
 		};
 		5EEF9096258E48A20045033A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 028366638E419435995FCB2B /* Pods-BuyAgro-BuyAgroUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +699,7 @@
 		};
 		5EEF9097258E48A20045033A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9054B2A8609EAF4AE0CB66F4 /* Pods-BuyAgro-BuyAgroUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
