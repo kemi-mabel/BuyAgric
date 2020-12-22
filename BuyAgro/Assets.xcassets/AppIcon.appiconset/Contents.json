@@ -6,6 +6,7 @@
       "size" : "20x20"
     },
     {
+      "filename" : "icons8-chicken-60.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
@@ -16,6 +17,7 @@
       "size" : "29x29"
     },
     {
+      "filename" : "icons8-chicken-87.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
@@ -36,6 +38,7 @@
       "size" : "60x60"
     },
     {
+      "filename" : "icons8-chicken-180.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2B95E0416F2FF257E9E6D106 /* Pods_BuyAgroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92B9646A7E40131D883A9D5 /* Pods_BuyAgroTests.framework */; };
+		5E431F972592A02000430F04 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E431F962592A02000430F04 /* Home.swift */; };
+		5EE88FC52592A738002D5DA6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE88FC42592A738002D5DA6 /* Constants.swift */; };
 		5EEF9066258E489C0045033A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF9065258E489C0045033A /* AppDelegate.swift */; };
 		5EEF9068258E489C0045033A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF9067258E489C0045033A /* SceneDelegate.swift */; };
 		5EEF906D258E489C0045033A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EEF906B258E489C0045033A /* Main.storyboard */; };
@@ -16,8 +18,8 @@
 		5EEF9075258E48A10045033A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EEF9073258E48A10045033A /* LaunchScreen.storyboard */; };
 		5EEF9080258E48A20045033A /* BuyAgroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF907F258E48A20045033A /* BuyAgroTests.swift */; };
 		5EEF908B258E48A20045033A /* BuyAgroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF908A258E48A20045033A /* BuyAgroUITests.swift */; };
-		7C153D422590FA2200379A0B /* CategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C153D412590FA2200379A0B /* CategoryCollectionViewController.swift */; };
-		7C153D472590FE8700379A0B /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C153D462590FE8700379A0B /* CategoryCollectionViewCell.swift */; };
+		7C153D422590FA2200379A0B /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C153D412590FA2200379A0B /* HomeCollectionViewController.swift */; };
+		7C153D472590FE8700379A0B /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C153D462590FE8700379A0B /* HomeCollectionViewCell.swift */; };
 		7C153D4C2591065300379A0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C153D4B2591065200379A0B /* GoogleService-Info.plist */; };
 		7C153D512591188800379A0B /* FirebaseCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C153D502591188800379A0B /* FirebaseCollectionReference.swift */; };
 		B63577ACAEE5810144009CD3 /* Pods_BuyAgro_BuyAgroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE923CEACB9542D4A84F777 /* Pods_BuyAgro_BuyAgroUITests.framework */; };
@@ -45,6 +47,8 @@
 		0133B9B1DED7E36CC6BB7834 /* Pods-BuyAgroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuyAgroTests.release.xcconfig"; path = "Target Support Files/Pods-BuyAgroTests/Pods-BuyAgroTests.release.xcconfig"; sourceTree = "<group>"; };
 		028366638E419435995FCB2B /* Pods-BuyAgro-BuyAgroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuyAgro-BuyAgroUITests.debug.xcconfig"; path = "Target Support Files/Pods-BuyAgro-BuyAgroUITests/Pods-BuyAgro-BuyAgroUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		41D3BF53B6F591242AA0EE97 /* Pods-BuyAgro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuyAgro.debug.xcconfig"; path = "Target Support Files/Pods-BuyAgro/Pods-BuyAgro.debug.xcconfig"; sourceTree = "<group>"; };
+		5E431F962592A02000430F04 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		5EE88FC42592A738002D5DA6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5EEF9062258E489C0045033A /* BuyAgro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuyAgro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEF9065258E489C0045033A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EEF9067258E489C0045033A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,8 +63,8 @@
 		5EEF9086258E48A20045033A /* BuyAgroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuyAgroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEF908A258E48A20045033A /* BuyAgroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyAgroUITests.swift; sourceTree = "<group>"; };
 		5EEF908C258E48A20045033A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C153D412590FA2200379A0B /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = "<group>"; };
-		7C153D462590FE8700379A0B /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		7C153D412590FA2200379A0B /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
+		7C153D462590FE8700379A0B /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		7C153D4B2591065200379A0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7C153D502591188800379A0B /* FirebaseCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCollectionReference.swift; sourceTree = "<group>"; };
 		9054B2A8609EAF4AE0CB66F4 /* Pods-BuyAgro-BuyAgroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuyAgro-BuyAgroUITests.release.xcconfig"; path = "Target Support Files/Pods-BuyAgro-BuyAgroUITests/Pods-BuyAgro-BuyAgroUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +103,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E431F9325929FD800430F04 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7C153D502591188800379A0B /* FirebaseCollectionReference.swift */,
+				5EE88FC42592A738002D5DA6 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5E431F9425929FEF00430F04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7C153D412590FA2200379A0B /* HomeCollectionViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E431F9525929FFA00430F04 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7C153D462590FE8700379A0B /* HomeCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5E431F9E2592A03700430F04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E431F962592A02000430F04 /* Home.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5EEF9059258E489C0045033A = {
 			isa = PBXGroup;
 			children = (
@@ -125,11 +162,12 @@
 			isa = PBXGroup;
 			children = (
 				5EEF9065258E489C0045033A /* AppDelegate.swift */,
-				7C153D502591188800379A0B /* FirebaseCollectionReference.swift */,
 				5EEF9067258E489C0045033A /* SceneDelegate.swift */,
 				5EEF906B258E489C0045033A /* Main.storyboard */,
-				7C153D462590FE8700379A0B /* CategoryCollectionViewCell.swift */,
-				7C153D412590FA2200379A0B /* CategoryCollectionViewController.swift */,
+				5E431F9325929FD800430F04 /* Helpers */,
+				5E431F9525929FFA00430F04 /* Cells */,
+				5E431F9425929FEF00430F04 /* View */,
+				5E431F9E2592A03700430F04 /* Model */,
 				5EEF9071258E48A10045033A /* Assets.xcassets */,
 				5EEF9073258E48A10045033A /* LaunchScreen.storyboard */,
 				5EEF9076258E48A10045033A /* Info.plist */,
@@ -421,10 +459,12 @@
 			files = (
 				7C153D512591188800379A0B /* FirebaseCollectionReference.swift in Sources */,
 				5EEF9070258E489C0045033A /* BuyAgro.xcdatamodeld in Sources */,
-				7C153D472590FE8700379A0B /* CategoryCollectionViewCell.swift in Sources */,
+				7C153D472590FE8700379A0B /* HomeCollectionViewCell.swift in Sources */,
 				5EEF9066258E489C0045033A /* AppDelegate.swift in Sources */,
-				7C153D422590FA2200379A0B /* CategoryCollectionViewController.swift in Sources */,
+				7C153D422590FA2200379A0B /* HomeCollectionViewController.swift in Sources */,
 				5EEF9068258E489C0045033A /* SceneDelegate.swift in Sources */,
+				5E431F972592A02000430F04 /* Home.swift in Sources */,
+				5EE88FC52592A738002D5DA6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

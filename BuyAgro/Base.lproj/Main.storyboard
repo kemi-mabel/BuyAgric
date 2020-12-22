@@ -28,7 +28,7 @@
         <!--Category-->
         <scene sceneID="Apc-qr-hze">
             <objects>
-                <collectionViewController id="9dQ-ci-kZq" customClass="CategoryCollectionViewController" customModule="BuyAgro" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="9dQ-ci-kZq" customClass="HomeCollectionViewController" customModule="BuyAgro" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="lTW-jK-hvh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,7 +40,7 @@
                             <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="10"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="tev-YA-ngw" customClass="CategoryCollectionViewCell" customModule="BuyAgro" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="tev-YA-ngw" customClass="HomeCollectionViewCell" customModule="BuyAgro" customModuleProvider="target">
                                 <rect key="frame" x="10" y="10" width="176" height="151"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="tsj-Vv-vE4">
@@ -104,11 +104,11 @@
             </objects>
             <point key="canvasLocation" x="-363" y="22"/>
         </scene>
-        <!--Category-->
+        <!--Home-->
         <scene sceneID="0x1-5E-DGA">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lzu-v1-261" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Category" id="Xh4-qY-Mz8"/>
+                    <tabBarItem key="tabBarItem" title="Home" selectedImage="house.fill" catalog="system" id="Xh4-qY-Mz8"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fi9-SF-8gM">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -125,6 +125,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
