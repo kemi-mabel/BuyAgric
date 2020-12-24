@@ -51,7 +51,9 @@ class HomeCollectionViewController: UICollectionViewController, UICollectionView
     
     //Mark: UIcollection view delegate
 //
-    
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "categoryToItemsSegue", sender: categoryArray[indexPath.row])
+    }
     //MARK: Download Categories
     
     private func loadCategories () {
@@ -63,12 +65,12 @@ class HomeCollectionViewController: UICollectionViewController, UICollectionView
         }
     }
     //MARK: NAVIGATION
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "categoryToItemsSegue" {
-//          let vc = segue.destination as! itemsTableViewController
-//            vc.category = sender as! Category
-//        }
-//    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "categoryToItemsSegue" {
+          let vc = segue.destination as! itemsTableViewController
+            vc.category = sender as! Category
+        }
+    }
 
 }
 
