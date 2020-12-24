@@ -16,6 +16,6 @@ public let kBASKET_PATH = "Basket"
  
 
 //category
-public let kNAME = "name"
+public let KNAME = "name"
 public let KIMAGENAME = "imageName"
 public let KOBJECTID = "objectid"
