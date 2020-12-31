@@ -78,10 +78,10 @@ func createCategorySet() {
     let diaryProduct = Category(_name: "DiaryProduct", _imageName: "DiaryProduct")
     let seafood = Category(_name: "Seafood", _imageName: "Seafood")
     let poultry = Category(_name: "Poultry", _imageName: "Poultry")
-    let fertilizersandManures = Category(_name: "Fertilizer/Manures", _imageName: "Fertilizer/Manures")
+    let fertilizersandManures = Category(_name: "Fertilizer/Manures", _imageName: "Fertilizer")
     let farmCrops = Category(_name: "FarmCrops", _imageName: "FarmCrops")
     let machinery = Category(_name: "Machinery", _imageName: "Machinery")
-    let fruitsandVegetables = Category(_name: "Fruits/Vegetables", _imageName: "Fruits/Vegetables")
+    let fruitsandVegetables = Category(_name: "Fruits/Vegetables", _imageName: "Fruits")
     
     let arrayOfCategories = [grains, diaryProduct, seafood, poultry, fertilizersandManures, farmCrops, machinery, fruitsandVegetables]
     

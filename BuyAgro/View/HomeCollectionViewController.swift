@@ -15,11 +15,11 @@ class HomeCollectionViewController: UICollectionViewController, UICollectionView
     
 //    private let sectionInsets = UIEdgeInsets(top: 20.0, left: 10.0, bottom: 20.0, right: 10.0)
 //    private let itemsPerRow: CGFloat = 1
-    //MARK: View Lifecycle
+//    MARK: View Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+//        
 //        downloadCategoriesFromFirebase{ (allCategories) in
 //            print("callback is completed")}
 //        createCategorySet()
@@ -29,7 +29,6 @@ class HomeCollectionViewController: UICollectionViewController, UICollectionView
         super.viewDidAppear(animated)
         loadCategories()
     }
-    
 
     // MARK: UICollectionViewDataSource
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -68,7 +67,7 @@ class HomeCollectionViewController: UICollectionViewController, UICollectionView
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "categoryToItemsSegue" {
           let vc = segue.destination as! itemsTableViewController
-            vc.category = sender as! Category
+            vc.category = sender as? Category
         }
     }
 

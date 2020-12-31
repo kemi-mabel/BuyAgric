@@ -46,6 +46,7 @@ class AdditemViewController: UIViewController {
         dismissKeayboard()
                 
                 if fieldsAreCompleted() {
+                    saveToFirebase()
                     print("we have values")
                 } else {
                     print("Error all fields are required")
@@ -77,7 +78,7 @@ class AdditemViewController: UIViewController {
             self.view.endEditing(false)
         }
     
-    private func popTheView() {
+        private func popTheView() {
             self.navigationController?.popViewController(animated: true)
         }
     

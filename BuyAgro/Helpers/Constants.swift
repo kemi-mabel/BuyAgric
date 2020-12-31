@@ -8,7 +8,7 @@
 import Foundation
 
 //IDS and KEYS
-public let kFILEREFERENCE = ""
+public let kFILEREFERENCE = "gs://buyagric-986bd.appspot.com"
 
 
 //Firebase Headers
@@ -29,3 +29,8 @@ public let kCATEGORYID = "categoryId"
 public let kDESCRIPTION = "description"
 public let kPRICE = "price"
 public let kIMAGELINKS = "imageLinks"
+
+//basket
+public let kOWNERID = "ownerId"
+public let kITEMIDS = "itemIds"
+

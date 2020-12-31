@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>316642196192-2tojg8rf2ekm16qi8kkche0sf1mprv2u.apps.googleusercontent.com</string>
+	<string>820009321557-f687e9qsb6rhd9obhqg5i3judvjk2m45.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.316642196192-2tojg8rf2ekm16qi8kkche0sf1mprv2u</string>
+	<string>com.googleusercontent.apps.820009321557-f687e9qsb6rhd9obhqg5i3judvjk2m45</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAb5QrHJDWtmTPtJokv1VRRncWLBKHKKbI</string>
+	<string>AIzaSyBCnkV2FEufh86W4G4BHahlHeLRLB_QbaM</string>
 	<key>GCM_SENDER_ID</key>
-	<string>316642196192</string>
+	<string>820009321557</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>Oluwakemi.Onajinrin.BuyAgro</string>
 	<key>PROJECT_ID</key>
-	<string>buyagro-4ccb4</string>
+	<string>buyagric-986bd</string>
 	<key>STORAGE_BUCKET</key>
-	<string>buyagro-4ccb4.appspot.com</string>
+	<string>buyagric-986bd.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:316642196192:ios:2ba263265b6f7928a06e85</string>
+	<string>1:820009321557:ios:bfa9eeb2a9464b359900dc</string>
 </dict>
 </plist>

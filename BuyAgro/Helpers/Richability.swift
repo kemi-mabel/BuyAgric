@@ -7,7 +7,6 @@
 
 import SystemConfiguration
 
-
 public class Reachabilty {
     
     class func HasConnection() -> Bool {

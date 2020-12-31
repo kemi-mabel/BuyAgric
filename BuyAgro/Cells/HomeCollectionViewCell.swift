@@ -15,12 +15,6 @@ class HomeCollectionViewCell: UICollectionViewCell {
     func generateCell(_ category: Category ){
         nameLabel.text = category.name
         imageView.image = category.image
-        
     }
 }
-
-
-
-
-
 //comment
