@@ -22,7 +22,7 @@ class ItemViewController: UIViewController {
     // MARK VARS
     var item: Item!
     var itemImages : [UIImage] = []
-    let hud = JGProgressHUDStyle.dark
+    let hud = JGProgressHUD(style: .dark)
     
     private let sectionInsets = UIEdgeInsets(top: 0.0, left: 0.0, bottom: 0.0, right: 0.0)
     private let cellHeight: CGFloat = 236.0
@@ -37,7 +37,7 @@ class ItemViewController: UIViewController {
         
         self.navigationItem.leftBarButtonItems = [UIBarButtonItem(image: UIImage(named: "back"), style: .plain, target: self, action: #selector(self.backAction))]
         
-        self.navigationItem.rightBarButtonItems = [UIBarButtonItem(image: UIImage(named: "basket"), style: .plain, target: self, action: #selector(self.addToBasket))]
+        self.navigationItem.rightBarButtonItems = [UIBarButtonItem(image: UIImage(named: "addToBasket"), style: .plain, target: self, action: #selector(self.addToBasketButtonPressed))]
         // Do any additional setup after loading the view.
     }
 
@@ -57,8 +57,56 @@ class ItemViewController: UIViewController {
     @objc func backAction(){
         self.navigationController?.popViewController(animated: true)
     }
-    @objc func addToBasket(){
+    @objc func addToBasketButtonPressed(){
+        
+        // check if user is loged in or show log in view
+        
+        downloadBasketFromFirestore("1234") { (basket) in
+            if basket == nil{
+                self.createNewBasket()
+            }
+            else{
+                basket?.itemIds.append(self.item.id)
+                self.updateBasket(basket: basket!, withValues: [kITEMIDS : basket!.itemIds])
+            }
+        }
         print("add to basket", item.name!)
+    }
+    
+    //MARK: ADD TO BASKET
+    
+    private func createNewBasket(){
+        let newbasket =  Basket()
+        newbasket.id = UUID().uuidString
+        newbasket.ownerId = "1234"
+        newbasket.itemIds = [self.item.id]
+        saveBasketToFirestore(newbasket)
+        
+        self.hud.textLabel.text = "Added to basket!"
+        self.hud.indicatorView = JGProgressHUDSuccessIndicatorView()
+        self.hud.show(in: self.view)
+        self.hud.dismiss(afterDelay: 2.0)
+    }
+    
+    private func updateBasket(basket : Basket, withValues : [String : Any]){
+        
+        updatebasketToFirestore(basket, withValues: withValues) { (error) in
+            if error != nil {
+                self.hud.textLabel.text = "Error : \(error!.localizedDescription)"
+                self.hud.indicatorView = JGProgressHUDSuccessIndicatorView()
+                self.hud.show(in: self.view)
+                self.hud.dismiss(afterDelay: 2.0)
+                
+                print("error updating basket", error!.localizedDescription)
+            }
+            else{
+                self.hud.textLabel.text = "Added to basket!"
+                self.hud.indicatorView = JGProgressHUDSuccessIndicatorView()
+                self.hud.show(in: self.view)
+                self.hud.dismiss(afterDelay: 2.0)
+            }
+        }
+        
     }
     // MARK: DOWNLOAD PICTURES
     
