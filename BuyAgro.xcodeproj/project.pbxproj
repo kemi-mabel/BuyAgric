@@ -29,10 +29,16 @@
 		7C153D422590FA2200379A0B /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C153D412590FA2200379A0B /* HomeCollectionViewController.swift */; };
 		7C153D472590FE8700379A0B /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C153D462590FE8700379A0B /* HomeCollectionViewCell.swift */; };
 		7C153D512591188800379A0B /* FirebaseCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C153D502591188800379A0B /* FirebaseCollectionReference.swift */; };
+		7C1C637225A9D859003B6051 /* PurchasedHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1C637125A9D859003B6051 /* PurchasedHistoryTableViewController.swift */; };
+		7C448C3025A772A000BD4A01 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C448C2F25A772A000BD4A01 /* ProfileTableViewController.swift */; };
+		7C448C4425A7A10800BD4A01 /* FinishRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C448C4325A7A10800BD4A01 /* FinishRegistrationViewController.swift */; };
+		7C448C4925A8C85100BD4A01 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C448C4825A8C85100BD4A01 /* EditProfileViewController.swift */; };
 		7C6E8D052596A0E400E672D0 /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6E8D042596A0E400E672D0 /* item.swift */; };
 		7C6E8D0A2596B2F700E672D0 /* AdditemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6E8D092596B2F700E672D0 /* AdditemViewController.swift */; };
 		7C6E8D0F2597627E00E672D0 /* Richability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6E8D0E2597627E00E672D0 /* Richability.swift */; };
 		7C6E8D14259762E900E672D0 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6E8D13259762E900E672D0 /* Downloader.swift */; };
+		7C8B7FED25A496B6001CD60D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8B7FEC25A496B6001CD60D /* WelcomeViewController.swift */; };
+		7C8B7FF225A4A5A5001CD60D /* MUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8B7FF125A4A5A5001CD60D /* MUser.swift */; };
 		B63577ACAEE5810144009CD3 /* Pods_BuyAgro_BuyAgroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE923CEACB9542D4A84F777 /* Pods_BuyAgro_BuyAgroUITests.framework */; };
 		F721D7529659AD1B75541CCF /* Pods_BuyAgro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5512DB3D71A262CEC56DE65 /* Pods_BuyAgro.framework */; };
 /* End PBXBuildFile section */
@@ -85,10 +91,16 @@
 		7C153D412590FA2200379A0B /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
 		7C153D462590FE8700379A0B /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		7C153D502591188800379A0B /* FirebaseCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCollectionReference.swift; sourceTree = "<group>"; };
+		7C1C637125A9D859003B6051 /* PurchasedHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedHistoryTableViewController.swift; sourceTree = "<group>"; };
+		7C448C2F25A772A000BD4A01 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		7C448C4325A7A10800BD4A01 /* FinishRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishRegistrationViewController.swift; sourceTree = "<group>"; };
+		7C448C4825A8C85100BD4A01 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		7C6E8D042596A0E400E672D0 /* item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
 		7C6E8D092596B2F700E672D0 /* AdditemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditemViewController.swift; sourceTree = "<group>"; };
 		7C6E8D0E2597627E00E672D0 /* Richability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Richability.swift; sourceTree = "<group>"; };
 		7C6E8D13259762E900E672D0 /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		7C8B7FEC25A496B6001CD60D /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		7C8B7FF125A4A5A5001CD60D /* MUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUser.swift; sourceTree = "<group>"; };
 		9054B2A8609EAF4AE0CB66F4 /* Pods-BuyAgro-BuyAgroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuyAgro-BuyAgroUITests.release.xcconfig"; path = "Target Support Files/Pods-BuyAgro-BuyAgroUITests/Pods-BuyAgro-BuyAgroUITests.release.xcconfig"; sourceTree = "<group>"; };
 		92761DB3B4B0CFF4618268E4 /* Pods-BuyAgro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuyAgro.release.xcconfig"; path = "Target Support Files/Pods-BuyAgro/Pods-BuyAgro.release.xcconfig"; sourceTree = "<group>"; };
 		9EE923CEACB9542D4A84F777 /* Pods_BuyAgro_BuyAgroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuyAgro_BuyAgroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +157,9 @@
 				7C6E8D092596B2F700E672D0 /* AdditemViewController.swift */,
 				5E6307F3259D033A00B9A3F8 /* ItemViewController.swift */,
 				5E2FE1BA259FD178001AFBF2 /* BasketViewController.swift */,
+				7C448C2F25A772A000BD4A01 /* ProfileTableViewController.swift */,
+				7C448C4825A8C85100BD4A01 /* EditProfileViewController.swift */,
+				7C1C637125A9D859003B6051 /* PurchasedHistoryTableViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -163,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				5E431F962592A02000430F04 /* Home.swift */,
+				7C8B7FF125A4A5A5001CD60D /* MUser.swift */,
 				7C6E8D042596A0E400E672D0 /* item.swift */,
 				5E63083F259DF76000B9A3F8 /* Basket.swift */,
 			);
@@ -194,6 +210,7 @@
 		5EEF9064258E489C0045033A /* BuyAgro */ = {
 			isa = PBXGroup;
 			children = (
+				7C448C3F25A7A04800BD4A01 /* Login View */,
 				5EEF9065258E489C0045033A /* AppDelegate.swift */,
 				5EEF9067258E489C0045033A /* SceneDelegate.swift */,
 				5EEF906B258E489C0045033A /* Main.storyboard */,
@@ -226,6 +243,15 @@
 				5EEF908C258E48A20045033A /* Info.plist */,
 			);
 			path = BuyAgroUITests;
+			sourceTree = "<group>";
+		};
+		7C448C3F25A7A04800BD4A01 /* Login View */ = {
+			isa = PBXGroup;
+			children = (
+				7C8B7FEC25A496B6001CD60D /* WelcomeViewController.swift */,
+				7C448C4325A7A10800BD4A01 /* FinishRegistrationViewController.swift */,
+			);
+			path = "Login View";
 			sourceTree = "<group>";
 		};
 		7FE5623CB56FAACD5F9D6691 /* Pods */ = {
@@ -491,14 +517,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C153D512591188800379A0B /* FirebaseCollectionReference.swift in Sources */,
+				7C8B7FED25A496B6001CD60D /* WelcomeViewController.swift in Sources */,
 				5E6307F4259D033A00B9A3F8 /* ItemViewController.swift in Sources */,
 				5EEF9070258E489C0045033A /* BuyAgro.xcdatamodeld in Sources */,
+				7C8B7FF225A4A5A5001CD60D /* MUser.swift in Sources */,
 				7C6E8D0A2596B2F700E672D0 /* AdditemViewController.swift in Sources */,
 				7C6E8D052596A0E400E672D0 /* item.swift in Sources */,
+				7C1C637225A9D859003B6051 /* PurchasedHistoryTableViewController.swift in Sources */,
 				7C6E8D0F2597627E00E672D0 /* Richability.swift in Sources */,
+				7C448C4925A8C85100BD4A01 /* EditProfileViewController.swift in Sources */,
 				7C153D472590FE8700379A0B /* HomeCollectionViewCell.swift in Sources */,
 				5E6307F9259D0A7800B9A3F8 /* imageCollectionViewCell.swift in Sources */,
 				5EEF9066258E489C0045033A /* AppDelegate.swift in Sources */,
+				7C448C4425A7A10800BD4A01 /* FinishRegistrationViewController.swift in Sources */,
 				5EC866DA2594E93C00BBDFFB /* itemsTableViewController.swift in Sources */,
 				5EDCABAF259CA99C0098D8D5 /* Functions.swift in Sources */,
 				7C6E8D14259762E900E672D0 /* Downloader.swift in Sources */,
@@ -508,6 +539,7 @@
 				5EEF9068258E489C0045033A /* SceneDelegate.swift in Sources */,
 				5E630840259DF76100B9A3F8 /* Basket.swift in Sources */,
 				5E431F972592A02000430F04 /* Home.swift in Sources */,
+				7C448C3025A772A000BD4A01 /* ProfileTableViewController.swift in Sources */,
 				5EE88FC52592A738002D5DA6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

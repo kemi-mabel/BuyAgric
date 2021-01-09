@@ -20,8 +20,13 @@ class BasketViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
-        loadBasketFromFirestore()
-        // check if user is logged in
+        if MUser.currentUser() != nil {
+            loadBasketFromFirestore()
+        } else {
+            
+            self.updateTotalLabels(true)
+        }
+        
     }
     // IBOUTLETS
     @IBOutlet weak var footerView: UIView!
@@ -42,11 +47,26 @@ class BasketViewController: UIViewController {
     
     // IB ACTIONS
     @IBAction func checkoutButtonpressed(_ sender: Any) {
+        
+        if MUser.currentUser()!.onBoard {
+                    
+                    tempFunction()
+                    
+                    addItemsToPurchaseHistory(self.purchasedItemIds)
+                    emptyTheBasket()
+
+                } else {
+                    
+                    self.hud.textLabel.text = "Please complete you profile!"
+                    self.hud.indicatorView = JGProgressHUDErrorIndicatorView()
+                    self.hud.show(in: self.view)
+                    self.hud.dismiss(afterDelay: 2.0)
+                }
     }
     
     // MARK: LOAD BASKET
     private func loadBasketFromFirestore(){
-        downloadBasketFromFirestore("1234") { (basket) in
+        downloadBasketFromFirestore(MUser.currentId()) { (basket) in
             self.basket = basket
             self.getbasketItems()
             
@@ -62,7 +82,16 @@ class BasketViewController: UIViewController {
         }
     }
     
-    //MARK:
+    //MARK: helper functions
+    
+    func tempFunction() {
+           for item in allItems {
+               print("we have ", item.id)
+               purchasedItemIds.append(item.id)
+           }
+       }
+
+    
     private func updateTotalLabels(_ isEmpty: Bool) {
          
          if isEmpty {
@@ -77,6 +106,8 @@ class BasketViewController: UIViewController {
          //TODO: Update the button status
 
      }
+    
+    
      private func returnBasketTotalPrice() -> String {
          
          var totalPrice = 0.0
@@ -87,6 +118,44 @@ class BasketViewController: UIViewController {
          
          return "Total price: " + convertToCurrency(totalPrice)
      }
+    
+    private func emptyTheBasket() {
+            
+            purchasedItemIds.removeAll()
+            allItems.removeAll()
+            tableView.reloadData()
+            
+            basket!.itemIds = []
+            
+
+            updatebasketToFirestore(basket!, withValues: [kITEMIDS : basket!.itemIds]) { (error) in
+                
+                if error != nil {
+                    print("Error updating basket ", error!.localizedDescription)
+                }
+                
+                self.getbasketItems()
+            }
+            
+        }
+    
+    private func addItemsToPurchaseHistory(_ itemIds: [String]) {
+            
+            if MUser.currentUser() != nil {
+                
+                print("item ids , ", itemIds)
+                let newItemIds = MUser.currentUser()!.purchasedItemIds + itemIds
+                
+                updateCurrentUserInFirestore(withValues: [kPURCHASEDITEMIDS : newItemIds]) { (error) in
+                    
+                    if error != nil {
+                        print("Error adding purchased items ", error!.localizedDescription)
+                    }
+                }
+            }
+            
+        }
+
     
     //MARK: NAVIGATION
     private func showItemView(withItem: Item) {
